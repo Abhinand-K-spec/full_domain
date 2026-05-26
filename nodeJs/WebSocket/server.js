@@ -1,7 +1,7 @@
 const websocket = require('ws');
 
 
-const server = new websocket.server({
+const server = new websocket.Server({
     port:3000
 })
 
