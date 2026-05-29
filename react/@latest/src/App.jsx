@@ -1,8 +1,10 @@
 import React from 'react'
+import Parent from './UseCallback-UseMemo/Parent'
+// import Cond from './Conditional/Cond'
 // import CN from './CN/CN'
 // import { Provider } from 'react-redux'
 // import { CnStore } from './CN/CNStore'
-import Memo from './UseMemo/Memo'
+// import Memo from './UseMemo/Memo'
 // import Parent from './UseCallback-UseMemo/Parent'
 // import AutoInc from './Reducer/AutoI/nc'
 // import Count from './redux/Count'
@@ -65,7 +67,9 @@ const App = () => {
        {/* <Provider store={CnStore}>
         <CN/>
        </Provider> */}
-       <Memo/>
+       {/* <Memo/> */}
+       {/* <Cond/> */}
+       <Parent/>
     </div>
   )
 }
