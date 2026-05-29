@@ -8,4 +8,5 @@ app.use((err,req,res,next)=>{
         message:'Error occured!',
         error:err.message
     })
+    next();
 })
